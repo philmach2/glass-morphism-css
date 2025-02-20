@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+            <div id="bg-circle-lg"></div>
+            <div id="bg-circle-md"></div>
+            <div id="bg-circle-sm"></div>
+        
+        <div id="calculator-container">
+                <input id="display" data-display readonly placeholder="4024">
+            <div id="operator-container">
+             
+                <div class="clear-container">
+                    <button class="clear-btn" data-clear><strong>c l e a r</strong></button>
+                </div>
+    
+                <div class="num-btn-container">
+                    <button class="num-btn" data-number><strong>7</strong></button>
+                    <button class="num-btn" data-number><strong>8</strong></button>
+                    <button class="num-btn" data-number><strong>9</strong></button>
+                    <button class="num-btn" data-operation><strong>%</strong></button>
+                </div>
+                    
+                <div class="num-btn-container">
+                    <button class="num-btn" data-number><strong>4</strong></button>
+                    <button class="num-btn" data-number><strong>5</strong></button>
+                    <button class="num-btn" data-number><strong>6</strong></button>
+                    <button class="num-btn symbol" data-operation><strong>+</strong></button>
+                </div>
+                    
+                <div class="num-btn-container">
+                    <button class="num-btn" data-number><strong>1</strong></button>
+                    <button class="num-btn" data-number><strong>2</strong></button>
+                    <button class="num-btn" data-number><strong>3</strong></button>
+                    <button class="num-btn symbol" data-operation><strong>-</strong></button>
+                </div>
+                    
+                <div class="zero-container">
+                    <button class="zero-btn" data-number><strong>0</strong></button>
+                    <button class="zero-btn equal-btn" data-operation><strong>=</strong></button>
+                    <button class="zero-btn" data-equals><strong>x</strong></button>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="https://github.com/philmach2">B u i l d b y P h i l M a c h </a>
+        <img src="github-logo.png" alt="github-logo">
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
