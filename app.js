@@ -1,3 +1,5 @@
+// initialize git and rework logic
+
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
