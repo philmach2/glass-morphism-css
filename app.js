@@ -1,4 +1,5 @@
 // initialize git and rework logic
+// calc logic
 
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
